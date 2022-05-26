@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>Acutest.WebDriver.SelfHeal3</PackageId>
+    <Authors>Farkh</Authors>
+    <Company>Acutest</Company>
+    <Description>Proxy implemenation of WebDriver (3.141.0) overriden findElement method to allow a list of "By" objects to loop.</Description>
+    <Copyright>Acutest</Copyright>
+    <PackageLicenseExpression>Apache License 2.0</PackageLicenseExpression>
+    <PackageTags>Selenium, WebDriver, SelfHeal, FindElement, ChromeDriver, EdgeDriver, FirefoxDriver, SafariDriver</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Edge.SeleniumTools" Version="3.141.3" />
+    <PackageReference Include="Selenium.WebDriver" Version="[3.141.0]" />
+  </ItemGroup>
+
+</Project>

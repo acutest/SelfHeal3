@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfHeal3", "SelfHeal3.csproj", "{9414E94C-63EC-4A3B-942E-A11D41193402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfHeal3Test", "..\SelfHeal3Test\SelfHeal3Test.csproj", "{F6B0DF06-49B5-459F-B4D0-78E6C1B80A27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9414E94C-63EC-4A3B-942E-A11D41193402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9414E94C-63EC-4A3B-942E-A11D41193402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9414E94C-63EC-4A3B-942E-A11D41193402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9414E94C-63EC-4A3B-942E-A11D41193402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B0DF06-49B5-459F-B4D0-78E6C1B80A27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B0DF06-49B5-459F-B4D0-78E6C1B80A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B0DF06-49B5-459F-B4D0-78E6C1B80A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B0DF06-49B5-459F-B4D0-78E6C1B80A27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A418045-5516-45D1-A39C-ABFFCD129060}
+	EndGlobalSection
+EndGlobal

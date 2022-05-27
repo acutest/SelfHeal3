@@ -37,10 +37,19 @@ namespace SelfHeal3Test
               
             }
 
-           IWebElement el = driver.FindElement(By.XPath("//input[@title='Search']"));
-           el.SendKeys("hello world");
-           el.SendKeys((Keys.Return));
-           driver.Close();
+            try
+            {
+                IWebElement el = driver.FindElement(By.XPath("//input[@title='Search']"));
+                el.SendKeys("hello world");
+                el.SendKeys((Keys.Return));
+                driver.Quit();
+            }
+            catch (Exception e)
+            {
+                driver.Quit();
+                Assert.Fail(e.Message);
+            }
+          
 
 
         }

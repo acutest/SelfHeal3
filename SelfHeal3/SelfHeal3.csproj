@@ -8,7 +8,6 @@
     <Description>Proxy implemenation of WebDriver (3.141.0) overriden findElement method to allow a list of "By" objects to loop.</Description>
     <Copyright>Acutest</Copyright>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-	<PackageLicenseUrl>https://licenses.nuget.org/Apache-2.0</PackageLicenseUrl>
     <PackageTags>Selenium, WebDriver, SelfHeal, FindElement, ChromeDriver, EdgeDriver, FirefoxDriver, SafariDriver</PackageTags>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
